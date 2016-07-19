@@ -1,0 +1,6 @@
+dao\UserRoles.class
+dao\UserRolesServiceImpl.class
+dao\UserRolesDAOImpl.class
+dao\UserRolesDAO.class
+controller\MainController.class
+dao\UserRolesService.class

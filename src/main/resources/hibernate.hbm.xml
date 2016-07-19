@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="dao.UserRoles" table="USER_ROLES" >
+        <id name="roleId" type="int">
+            <column name="ROLE_ID" precision="10" scale="0" />
+            <generator class="increment" />
+        </id>
+        <property name="userName" type="string">
+            <column name="USERNAME" length="20" />
+        </property>
+        <property name="userRole" type="string">
+            <column name="USER_ROLE" length="30" />
+        </property>
+    </class>
+</hibernate-mapping>
